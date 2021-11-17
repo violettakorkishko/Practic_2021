@@ -1,0 +1,60 @@
+
+table {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.conteiner{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.search{
+  display: block;
+  margin: 30px auto;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+td {
+  text-align: left;
+  min-width: 100px;
+}
+.photo{
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  position: relative;
+}
+.img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+.ico {
+  max-width: 15px;
+  min-width: 15px;
+  max-height: 15px;
+  min-height: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.add-row{
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  max-width: 500px;
+}
